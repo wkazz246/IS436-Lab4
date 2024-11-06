@@ -21,6 +21,11 @@
     justify-content: center;
 }
 
+.logo-placeholder img {
+    width: 100%; /* Scale the logo to fit within the placeholder */
+    height: auto;
+}
+
 .header-text {
     flex-grow: 1;
 }
@@ -29,6 +34,7 @@
     margin-top: 10px;
     padding: 10px;
     border: 1px solid #ccc;
+    background-color: #f9f9f9;
     display: inline-block;
     width: 100%;
 }
