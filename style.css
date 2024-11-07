@@ -302,6 +302,7 @@ body {
 }
 
 .contact-form-container {
+    flex: 1;
     background-color: #f4f4f4;
     padding: 20px;
     border-radius: 5px;
