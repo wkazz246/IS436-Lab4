@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact US Prototype</title>
-    <link rel="stylesheet" href="style.css"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>UMBC Program Page Prototype</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
 
     <!-- Header Section -->
@@ -29,7 +30,42 @@
         </ul>
     </nav>
 
-   	    <main class="main-content"> </main>
+    <!-- Main Content Section -->
+    <main class="contact-main">
+        <div class="contact-container">
+            <!-- Left Column with Text -->
+            <div class="contact-info">
+                <h1>Contact Us</h1>
+				<strong>The Department of Information Systems</strong><br>
+                   ITE Building<br>
+				   Suite 404<br><br>
+                   <strong>Phone<br></strong>
+                   410-455-3206<br><br>
+                   <strong>Email<br></strong>
+                   informationsystems@umbc.edu
+                </p>
+            </div>
+            
+            <!-- Right Column with Form -->
+            <div class="contact-form-container">
+                <form class="contact-form">
+                    <label>Name:</label>
+                    <input type="text" name="name" placeholder="Enter your full name" required>
+                    
+                    <label>Email Address:</label>
+                    <input type="email" name="email" placeholder="Enter your email address" required>
+                    
+                    <label>Phone Number:</label>
+                    <input type="tel" name="phone" placeholder="Enter your phone number" required>
+                    
+                    <label>Message:</label>
+                    <textarea name="message" rows="10" placeholder="Write your message here" required></textarea>
+                    
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </main>
 	
 	
 
