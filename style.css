@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-	margin: 0;
+    margin: 0;
 }
 
 /*index.html*/
@@ -98,7 +98,6 @@ body {
     width: 150px;
     text-align: center;
 }
-
 
 /* Footer Styles */
 .footer-section {
@@ -434,4 +433,3 @@ body {
        height: 100%;
     }
 }
-
